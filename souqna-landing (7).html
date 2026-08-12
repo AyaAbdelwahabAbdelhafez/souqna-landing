@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>سوقنا — منصة تربط أصحاب المحلات بالمسوقين</title>
+<meta name="description" content="سوقنا منصة تجمع أصحاب المحلات والمسوقين في تجربة واحدة. أضف متجرك ووصل لعملاء جدد، أو سجّل كمسوق وسوّق للمحلات واكسب عائدًا.">
+<meta property="og:title" content="سوقنا — متجرك يستحق أن يصل إلى عملاء أكثر">
+<meta property="og:description" content="منصة تجمع أصحاب المحلات والمسوقين في تجربة واحدة.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ar_EG">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="سوقنا — متجرك يستحق أن يصل إلى عملاء أكثر">
+<meta name="twitter:description" content="منصة تجمع أصحاب المحلات والمسوقين في تجربة واحدة.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 26'%3E%3Ccircle cx='13' cy='13' r='12.25' fill='%23132420'/%3E%3Cpath d='M6 15.5C8 13 10.5 17 13 14.5C15.5 12 18 16 20 13.5' stroke='%23B8894B' stroke-width='1.8' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 26'%3E%3Crect width='26' height='26' rx='6' fill='%23132420'/%3E%3Cpath d='M6 15.5C8 13 10.5 17 13 14.5C15.5 12 18 16 20 13.5' stroke='%23B8894B' stroke-width='1.8' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#132420">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "سوقنا",
+  "alternateName": "Souqna",
+  "description": "منصة تجمع أصحاب المحلات والمسوقين في تجربة واحدة.",
+  "areaServed": "EG"
+}
+</script>
+<style>
+/* compiled Tailwind (static, no runtime dependency) */
+*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/*! tailwindcss v3.4.19 | MIT License | https://tailwindcss.com*/*,:after,:before{box-sizing:border-box;border:0 solid #e5e7eb}:after,:before{--tw-content:""}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.invisible{visibility:hidden}.static{position:static}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.-inset-10{inset:-2.5rem}.-inset-16{inset:-4rem}.-bottom-16{bottom:-4rem}.-bottom-8{bottom:-2rem}.-left-6{left:-1.5rem}.-right-8{right:-2rem}.-top-6{top:-1.5rem}.left-1{left:.25rem}.left-1\/2{left:50%}.right-\[-37px\]{right:-37px}.top-0{top:0}.isolate{isolation:isolate}.-z-10{z-index:-10}.z-0{z-index:0}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.z-\[1\]{z-index:1}.order-1{order:1}.order-2{order:2}.mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:.25rem}.mb-10{margin-bottom:2.5rem}.mb-2{margin-bottom:.5rem}.mb-2\.5{margin-bottom:.625rem}.mb-3{margin-bottom:.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mr-auto{margin-right:auto}.mt-0{margin-top:0}.mt-0\.5{margin-top:.125rem}.mt-1{margin-top:.25rem}.mt-1\.5{margin-top:.375rem}.mt-12{margin-top:3rem}.mt-14{margin-top:3.5rem}.mt-2{margin-top:.5rem}.mt-3{margin-top:.75rem}.mt-4{margin-top:1rem}.mt-5{margin-top:1.25rem}.mt-6{margin-top:1.5rem}.mt-7{margin-top:1.75rem}.mt-9{margin-top:2.25rem}.flex{display:flex}.inline-flex{display:inline-flex}.table{display:table}.grid{display:grid}.hidden{display:none}.aspect-\[4\/3\]{aspect-ratio:4/3}.aspect-square{aspect-ratio:1/1}.h-1{height:.25rem}.h-1\.5{height:.375rem}.h-10{height:2.5rem}.h-11{height:2.75rem}.h-12{height:3rem}.h-16{height:4rem}.h-2{height:.5rem}.h-2\.5{height:.625rem}.h-20{height:5rem}.h-4{height:1rem}.h-8{height:2rem}.h-9{height:2.25rem}.w-1{width:.25rem}.w-1\.5{width:.375rem}.w-10{width:2.5rem}.w-11{width:2.75rem}.w-12{width:3rem}.w-2{width:.5rem}.w-2\.5{width:.625rem}.w-4{width:1rem}.w-44{width:11rem}.w-8{width:2rem}.w-9{width:2.25rem}.w-full{width:100%}.min-w-0{min-width:0}.max-w-3xl{max-width:48rem}.max-w-7xl{max-width:80rem}.max-w-\[220px\]{max-width:220px}.max-w-lg{max-width:32rem}.max-w-md{max-width:28rem}.max-w-sm{max-width:24rem}.max-w-xl{max-width:36rem}.flex-1{flex:1 1 0%}.shrink-0{flex-shrink:0}.-translate-x-1{--tw-translate-x:-0.25rem}.-translate-x-1,.-translate-x-1\/2{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-translate-x-1\/2{--tw-translate-x:-50%}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:.25rem}.gap-1\.5{gap:.375rem}.gap-10{gap:2.5rem}.gap-12{gap:3rem}.gap-14{gap:3.5rem}.gap-2{gap:.5rem}.gap-2\.5{gap:.625rem}.gap-3{gap:.75rem}.gap-3\.5{gap:.875rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.gap-9{gap:2.25rem}.gap-x-4{-moz-column-gap:1rem;column-gap:1rem}.gap-x-6{-moz-column-gap:1.5rem;column-gap:1.5rem}.gap-y-2{row-gap:.5rem}.gap-y-6{row-gap:1.5rem}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.5rem*var(--tw-space-y-reverse))}.space-y-2\.5>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.625rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.625rem*var(--tw-space-y-reverse))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.75rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.75rem*var(--tw-space-y-reverse))}.space-y-3\.5>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.875rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.875rem*var(--tw-space-y-reverse))}.space-y-9>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2.25rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2.25rem*var(--tw-space-y-reverse))}.divide-y>:not([hidden])~:not([hidden]){--tw-divide-y-reverse:0;border-top-width:calc(1px*(1 - var(--tw-divide-y-reverse)));border-bottom-width:calc(1px*var(--tw-divide-y-reverse))}.divide-line>:not([hidden])~:not([hidden]){--tw-divide-opacity:1;border-color:rgb(225 219 204/var(--tw-divide-opacity,1))}.overflow-hidden,.truncate{overflow:hidden}.truncate{text-overflow:ellipsis}.truncate,.whitespace-nowrap{white-space:nowrap}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-xl{border-radius:.75rem}.rounded-t{border-top-left-radius:.25rem;border-top-right-radius:.25rem}.border{border-width:1px}.border-2{border-width:2px}.border-y{border-top-width:1px}.border-b,.border-y{border-bottom-width:1px}.border-r-2{border-right-width:2px}.border-t{border-top-width:1px}.border-brass{--tw-border-opacity:1;border-color:rgb(184 137 75/var(--tw-border-opacity,1))}.border-brass\/40{border-color:rgba(184,137,75,.4)}.border-line{--tw-border-opacity:1;border-color:rgb(225 219 204/var(--tw-border-opacity,1))}.border-line\/70{border-color:hsla(43,26%,84%,.7)}.border-paper{--tw-border-opacity:1;border-color:rgb(247 244 238/var(--tw-border-opacity,1))}.border-paper\/10{border-color:hsla(40,36%,95%,.1)}.border-paper\/15{border-color:hsla(40,36%,95%,.15)}.border-paper\/25{border-color:hsla(40,36%,95%,.25)}.border-petrol{--tw-border-opacity:1;border-color:rgb(31 75 67/var(--tw-border-opacity,1))}.bg-\[\#C8C2AE\]{--tw-bg-opacity:1;background-color:rgb(200 194 174/var(--tw-bg-opacity,1))}.bg-\[\#E0A66B\]{--tw-bg-opacity:1;background-color:rgb(224 166 107/var(--tw-bg-opacity,1))}.bg-brass{--tw-bg-opacity:1;background-color:rgb(184 137 75/var(--tw-bg-opacity,1))}.bg-brass\/15{background-color:rgba(184,137,75,.15)}.bg-brass\/40{background-color:rgba(184,137,75,.4)}.bg-brass\/70{background-color:rgba(184,137,75,.7)}.bg-brass2{--tw-bg-opacity:1;background-color:rgb(217 174 114/var(--tw-bg-opacity,1))}.bg-ink{--tw-bg-opacity:1;background-color:rgb(19 36 32/var(--tw-bg-opacity,1))}.bg-ink\/10{background-color:rgba(19,36,32,.1)}.bg-ink2{--tw-bg-opacity:1;background-color:rgb(27 50 44/var(--tw-bg-opacity,1))}.bg-paper{--tw-bg-opacity:1;background-color:rgb(247 244 238/var(--tw-bg-opacity,1))}.bg-paper\/25{background-color:hsla(40,36%,95%,.25)}.bg-paper\/5{background-color:hsla(40,36%,95%,.05)}.bg-paper\/90{background-color:hsla(40,36%,95%,.9)}.bg-paper2{--tw-bg-opacity:1;background-color:rgb(239 235 225/var(--tw-bg-opacity,1))}.bg-paper2\/60{background-color:hsla(43,30%,91%,.6)}.bg-petrol{--tw-bg-opacity:1;background-color:rgb(31 75 67/var(--tw-bg-opacity,1))}.bg-petrol\/10{background-color:rgba(31,75,67,.1)}.bg-petrol2{--tw-bg-opacity:1;background-color:rgb(44 97 87/var(--tw-bg-opacity,1))}.p-2{padding:.5rem}.p-2\.5{padding:.625rem}.p-3{padding:.75rem}.p-3\.5{padding:.875rem}.p-5{padding:1.25rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-2\.5{padding-left:.625rem;padding-right:.625rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-3\.5{padding-left:.875rem;padding-right:.875rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-7{padding-left:1.75rem;padding-right:1.75rem}.py-0{padding-top:0;padding-bottom:0}.py-0\.5{padding-top:.125rem;padding-bottom:.125rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-1\.5{padding-top:.375rem;padding-bottom:.375rem}.py-14{padding-top:3.5rem;padding-bottom:3.5rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-2\.5{padding-top:.625rem;padding-bottom:.625rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.py-3\.5{padding-top:.875rem;padding-bottom:.875rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.pb-16{padding-bottom:4rem}.pb-2{padding-bottom:.5rem}.pb-2\.5{padding-bottom:.625rem}.pb-5{padding-bottom:1.25rem}.pr-7{padding-right:1.75rem}.pt-14{padding-top:3.5rem}.pt-3{padding-top:.75rem}.pt-3\.5{padding-top:.875rem}.pt-4{padding-top:1rem}.pt-5{padding-top:1.25rem}.pt-6{padding-top:1.5rem}.text-center{text-align:center}.text-right{text-align:right}.text-\[10\.5px\]{font-size:10.5px}.text-\[10px\]{font-size:10px}.text-\[11\.5px\]{font-size:11.5px}.text-\[11px\]{font-size:11px}.text-\[12\.5px\]{font-size:12.5px}.text-\[12px\]{font-size:12px}.text-\[13\.5px\]{font-size:13.5px}.text-\[13px\]{font-size:13px}.text-\[14\.5px\]{font-size:14.5px}.text-\[14px\]{font-size:14px}.text-\[15px\]{font-size:15px}.text-\[16px\]{font-size:16px}.text-\[26px\]{font-size:26px}.text-\[28px\]{font-size:28px}.text-\[34px\]{font-size:34px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.leading-\[1\.28\]{line-height:1.28}.leading-\[1\.35\]{line-height:1.35}.leading-\[1\.3\]{line-height:1.3}.leading-\[1\.8\]{line-height:1.8}.leading-\[1\.9\]{line-height:1.9}.tracking-wide{letter-spacing:.025em}.text-brass{--tw-text-opacity:1;color:rgb(184 137 75/var(--tw-text-opacity,1))}.text-brass2{--tw-text-opacity:1;color:rgb(217 174 114/var(--tw-text-opacity,1))}.text-ink{--tw-text-opacity:1;color:rgb(19 36 32/var(--tw-text-opacity,1))}.text-ink3{--tw-text-opacity:1;color:rgb(43 43 39/var(--tw-text-opacity,1))}.text-mute{--tw-text-opacity:1;color:rgb(138 133 120/var(--tw-text-opacity,1))}.text-paper{--tw-text-opacity:1;color:rgb(247 244 238/var(--tw-text-opacity,1))}.text-paper\/40{color:hsla(40,36%,95%,.4)}.text-paper\/45{color:hsla(40,36%,95%,.45)}.text-paper\/50{color:hsla(40,36%,95%,.5)}.text-paper\/60{color:hsla(40,36%,95%,.6)}.text-paper\/70{color:hsla(40,36%,95%,.7)}.text-paper\/75{color:hsla(40,36%,95%,.75)}.text-paper\/80{color:hsla(40,36%,95%,.8)}.text-petrol{--tw-text-opacity:1;color:rgb(31 75 67/var(--tw-text-opacity,1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-70{opacity:.7}.shadow{--tw-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.outline{outline-style:solid}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur{--tw-backdrop-blur:blur(8px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-colors{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-shadow{transition-property:box-shadow;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.duration-300{transition-duration:.3s}.first\:pt-0:first-child{padding-top:0}.hover\:border-paper\/40:hover{border-color:hsla(40,36%,95%,.4)}.hover\:border-paper\/60:hover{border-color:hsla(40,36%,95%,.6)}.hover\:bg-brass2:hover{--tw-bg-opacity:1;background-color:rgb(217 174 114/var(--tw-bg-opacity,1))}.hover\:bg-ink:hover{--tw-bg-opacity:1;background-color:rgb(19 36 32/var(--tw-bg-opacity,1))}.hover\:text-paper:hover{--tw-text-opacity:1;color:rgb(247 244 238/var(--tw-text-opacity,1))}.hover\:text-petrol:hover{--tw-text-opacity:1;color:rgb(31 75 67/var(--tw-text-opacity,1))}@media (min-width:640px){.sm\:block{display:block}.sm\:flex{display:flex}.sm\:inline-flex{display:inline-flex}.sm\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.sm\:text-\[42px\]{font-size:42px}.sm\:leading-\[1\.25\]{line-height:1.25}}@media (min-width:768px){.md\:-left-10{left:-2.5rem}.md\:-right-12{right:-3rem}.md\:left-4{left:1rem}.md\:mx-0{margin-left:0;margin-right:0}.md\:mb-0{margin-bottom:0}.md\:mr-auto{margin-right:auto}.md\:flex{display:flex}.md\:h-20{height:5rem}.md\:translate-x-0{--tw-translate-x:0px;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.md\:flex-row{flex-direction:row}.md\:items-center{align-items:center}.md\:gap-0{gap:0}.md\:gap-6{gap:1.5rem}.md\:gap-8{gap:2rem}.md\:divide-x>:not([hidden])~:not([hidden]){--tw-divide-x-reverse:0;border-right-width:calc(1px*var(--tw-divide-x-reverse));border-left-width:calc(1px*(1 - var(--tw-divide-x-reverse)))}.md\:divide-y-0>:not([hidden])~:not([hidden]){--tw-divide-y-reverse:0;border-top-width:calc(0px*(1 - var(--tw-divide-y-reverse)));border-bottom-width:calc(0px*var(--tw-divide-y-reverse))}.md\:divide-x-reverse>:not([hidden])~:not([hidden]){--tw-divide-x-reverse:1}.md\:px-8{padding-left:2rem;padding-right:2rem}.md\:py-20{padding-top:5rem;padding-bottom:5rem}.md\:py-24{padding-top:6rem;padding-bottom:6rem}.md\:py-28{padding-top:7rem}.md\:pb-28,.md\:py-28{padding-bottom:7rem}.md\:pt-0{padding-top:0}.md\:pt-24{padding-top:6rem}.md\:text-2xl{font-size:1.5rem;line-height:2rem}.md\:text-\[16px\]{font-size:16px}.md\:text-\[18px\]{font-size:18px}.md\:text-\[32px\]{font-size:32px}.md\:text-\[36px\]{font-size:36px}.md\:text-\[40px\]{font-size:40px}.md\:text-\[52px\]{font-size:52px}.md\:leading-\[1\.18\]{line-height:1.18}.md\:first\:pr-0:first-child{padding-right:0}.md\:last\:pl-0:last-child{padding-left:0}}@media (min-width:1024px){.lg\:order-1{order:1}.lg\:order-2{order:2}.lg\:flex{display:flex}.lg\:hidden{display:none}.lg\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.lg\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}}
+/* site-specific styles */
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'IBM Plex Sans Arabic', sans-serif; background:#F7F4EE; color:#2B2B27; }
+  h1,h2,h3,h4, .kufi { font-family: 'Noto Kufi Arabic', sans-serif; }
+  .num { font-family: 'Inter', sans-serif; font-feature-settings: "tnum"; }
+
+  /* signature thread motif */
+  .thread {
+    position: relative;
+  }
+  .thread::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(circle, rgba(184,137,75,0.55) 1.6px, transparent 1.6px);
+    background-size: 14px 14px;
+    opacity: .5;
+  }
+  .thread-line {
+    stroke: #B8894B;
+    stroke-width: 1.6;
+    fill: none;
+    stroke-dasharray: 5 7;
+    stroke-linecap: round;
+  }
+  .node {
+    fill: #F7F4EE;
+    stroke: #B8894B;
+    stroke-width: 2;
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(14px);
+    transition: opacity .7s ease, transform .7s ease;
+  }
+  .reveal.in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* hero content animates in on its own — never depends on JS/IntersectionObserver,
+     so above-the-fold content is never stuck invisible */
+  .hero-in {
+    animation: heroIn .8s cubic-bezier(.2,.7,.2,1) both;
+  }
+  @keyframes heroIn {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .card-shadow {
+    box-shadow:
+      0 1px 1px rgba(19,36,32,0.05),
+      0 4px 10px -4px rgba(19,36,32,0.10),
+      0 20px 44px -18px rgba(19,36,32,0.22);
+  }
+  .card-lift {
+    transition: transform .35s cubic-bezier(.2,.7,.3,1), box-shadow .35s ease;
+  }
+  .card-lift:hover {
+    transform: translateY(-3px);
+    box-shadow:
+      0 1px 1px rgba(19,36,32,0.06),
+      0 6px 14px -4px rgba(19,36,32,0.14),
+      0 28px 56px -18px rgba(19,36,32,0.28);
+  }
+
+  /* grain texture for dark sections — adds material depth instead of flat color */
+  .grain { position: relative; }
+  .grain::after {
+    content: "";
+    position: absolute; inset: 0;
+    pointer-events: none;
+    opacity: .05;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  /* product-image placeholder — a designed pattern, not an empty box */
+  .img-tile {
+    position: relative;
+    overflow: hidden;
+    background:
+      repeating-linear-gradient(135deg, rgba(31,75,67,0.07) 0px, rgba(31,75,67,0.07) 1px, transparent 1px, transparent 9px),
+      #EFEBE1;
+  }
+  .img-tile::after {
+    content: "";
+    position: absolute; inset: 0;
+    background: radial-gradient(circle at 30% 25%, rgba(184,137,75,0.16), transparent 55%);
+  }
+  .img-tile-dark {
+    background:
+      repeating-linear-gradient(135deg, rgba(247,244,238,0.06) 0px, rgba(247,244,238,0.06) 1px, transparent 1px, transparent 9px),
+      #21362F;
+  }
+
+  .logo-mark path { vector-effect: non-scaling-stroke; }
+
+  ::selection { background: #B8894B; color: #F7F4EE; }
+
+  a, button { -webkit-tap-highlight-color: transparent; }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
+    .hero-in { animation: none !important; opacity: 1 !important; transform: none !important; }
+  }
+
+  .focus-ring:focus-visible {
+    outline: 2px solid #B8894B;
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .35s ease;
+  }
+
+  /* scroll progress */
+  #scrollProgress {
+    position: fixed; top: 0; right: 0; left: 0; height: 2.5px;
+    background: linear-gradient(90deg, #B8894B, #D9AE72);
+    width: 0%;
+    z-index: 60;
+    transform-origin: right;
+    transition: width .08s linear;
+  }
+
+  /* spotlight hover — a soft glow that tracks the cursor, used on premium surfaces */
+  .spotlight { position: relative; isolation: isolate; }
+  .spotlight::before {
+    content: "";
+    position: absolute; inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: radial-gradient(220px circle at var(--sx,50%) var(--sy,50%), rgba(184,137,75,.55), transparent 70%);
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0;
+    transition: opacity .4s ease;
+    pointer-events: none;
+    z-index: 1;
+  }
+  .spotlight:hover::before { opacity: 1; }
+  .spotlight-fill {
+    position: absolute; inset: 0;
+    border-radius: inherit;
+    background: radial-gradient(260px circle at var(--sx,50%) var(--sy,50%), rgba(184,137,75,.08), transparent 65%);
+    opacity: 0;
+    transition: opacity .4s ease;
+    pointer-events: none;
+  }
+  .spotlight:hover .spotlight-fill { opacity: 1; }
+
+  /* magnetic / premium buttons */
+  .btn-magnetic { transition: transform .25s cubic-bezier(.2,.8,.2,1), box-shadow .25s ease, background-color .25s ease; will-change: transform; }
+  .btn-magnetic:active { transform: scale(.97); }
+
+  /* gradient mesh backdrop for hero — depth without imagery */
+  .mesh {
+    position: absolute; inset: 0; z-index: 0; pointer-events: none;
+    background:
+      radial-gradient(600px 420px at 82% -10%, rgba(184,137,75,0.20), transparent 60%),
+      radial-gradient(520px 420px at 8% 110%, rgba(44,97,87,0.35), transparent 60%);
+  }
+
+  /* counter number pop */
+  .stat-num { font-variant-numeric: tabular-nums; }
+
+  /* nav shadow once scrolled */
+  header.scrolled { box-shadow: 0 8px 24px -18px rgba(19,36,32,0.35); }
+
+
+</style>
+</head>
+<body class="antialiased">
+<div id="scrollProgress" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header id="siteHeader" class="sticky top-0 z-50 bg-paper/90 backdrop-blur border-b border-line transition-shadow duration-300">
+  <div class="max-w-7xl mx-auto px-5 md:px-8">
+    <div class="h-16 md:h-20 flex items-center justify-between">
+      <a href="#top" class="kufi text-xl md:text-2xl font-bold text-ink flex items-center gap-2.5 focus-ring">
+        <svg class="logo-mark" width="26" height="26" viewBox="0 0 26 26" fill="none">
+          <circle cx="13" cy="13" r="12.25" stroke="#1F4B43" stroke-width="1.4"/>
+          <path d="M6 15.5C8 13 10.5 17 13 14.5C15.5 12 18 16 20 13.5" stroke="#B8894B" stroke-width="1.5" stroke-linecap="round"/>
+          <circle cx="6" cy="15.5" r="1.4" fill="#1F4B43"/>
+          <circle cx="20" cy="13.5" r="1.4" fill="#1F4B43"/>
+        </svg>
+        سوقنا
+      </a>
+
+      <nav class="hidden lg:flex items-center gap-9 kufi text-[15px] text-ink3">
+        <a href="#top" class="hover:text-petrol transition-colors focus-ring">الرئيسية</a>
+        <a href="#how" class="hover:text-petrol transition-colors focus-ring">كيف تعمل</a>
+        <a href="#owners" class="hover:text-petrol transition-colors focus-ring">لأصحاب المحلات</a>
+        <a href="#marketers" class="hover:text-petrol transition-colors focus-ring">للمسوقين</a>
+        <a href="#faq" class="hover:text-petrol transition-colors focus-ring">الأسئلة الشائعة</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="#final-cta" class="btn-magnetic magnetic hidden sm:inline-flex kufi text-sm font-semibold bg-petrol text-paper px-5 py-2.5 rounded-full hover:bg-ink transition-colors focus-ring">
+          سجل الآن
+        </a>
+        <button id="menuBtn" aria-label="فتح القائمة" aria-expanded="false" class="lg:hidden w-10 h-10 flex items-center justify-center rounded-full border border-line focus-ring">
+          <svg id="menuIcon" width="18" height="14" viewBox="0 0 18 14" fill="none"><path d="M0 1H18M0 7H18M0 13H18" stroke="#132420" stroke-width="1.6"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- mobile menu -->
+  <div id="mobileMenu" class="lg:hidden hidden border-t border-line bg-paper">
+    <nav class="flex flex-col kufi text-[15px] px-5 py-4 gap-1">
+      <a href="#top" class="py-2.5 text-ink3">الرئيسية</a>
+      <a href="#how" class="py-2.5 text-ink3">كيف تعمل</a>
+      <a href="#owners" class="py-2.5 text-ink3">لأصحاب المحلات</a>
+      <a href="#marketers" class="py-2.5 text-ink3">للمسوقين</a>
+      <a href="#faq" class="py-2.5 text-ink3">الأسئلة الشائعة</a>
+      <a href="#final-cta" class="mt-3 text-center kufi font-semibold bg-petrol text-paper px-5 py-3 rounded-full">سجل الآن</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section id="top" class="relative bg-ink text-paper overflow-hidden grain">
+  <div class="mesh"></div>
+  <div class="max-w-7xl mx-auto px-5 md:px-8 pt-14 pb-16 md:pt-24 md:pb-28 grid md:grid-cols-2 gap-14 md:gap-8 items-center relative z-[1]">
+
+    <div class="relative z-10 hero-in" style="animation-delay:.05s">
+      <div class="inline-flex items-center gap-2 text-brass2 kufi text-[13px] mb-6 border border-brass/40 rounded-full px-3.5 py-1.5">
+        <span class="w-1.5 h-1.5 rounded-full bg-brass2"></span>
+        لأصحاب المحلات والمسوقين
+      </div>
+      <h1 class="kufi font-bold text-[34px] leading-[1.28] sm:text-[42px] sm:leading-[1.25] md:text-[52px] md:leading-[1.18] max-w-xl">
+        متجرك يستحق أن يصل إلى عملاء أكثر
+      </h1>
+      <p class="mt-6 text-[16px] md:text-[18px] leading-[1.9] text-paper/75 max-w-md">
+        منصة تجمع أصحاب المحلات والمسوقين في تجربة واحدة، تساعد المتاجر على الوصول إلى عملاء جدد، وتمنح المسوقين فرصة للتسويق للمتاجر وتحقيق عائد.
+      </p>
+
+      <div class="mt-9 flex flex-wrap items-center gap-3.5">
+        <a href="#owners" class="btn-magnetic magnetic kufi font-semibold text-[15px] bg-brass text-ink px-7 py-3.5 rounded-full hover:bg-brass2 transition-colors focus-ring">
+          أضف متجرك
+        </a>
+        <a href="#marketers" class="btn-magnetic magnetic kufi font-semibold text-[15px] border border-paper/25 text-paper px-7 py-3.5 rounded-full hover:border-paper/60 transition-colors focus-ring">
+          سجل كمسوق
+        </a>
+      </div>
+
+      <p class="mt-6 text-[12.5px] text-paper/45 kufi">بدون رسوم بدء · تسجيل خلال دقائق · بياناتك محفوظة عندك</p>
+
+      <div class="mt-12 flex flex-wrap items-center gap-x-6 gap-y-2 kufi text-[13px] text-paper/50">
+        <span>ملابس</span>
+        <span class="w-1 h-1 rounded-full bg-paper/25"></span>
+        <span>عطور</span>
+        <span class="w-1 h-1 rounded-full bg-paper/25"></span>
+        <span>مستحضرات تجميل</span>
+        <span class="w-1 h-1 rounded-full bg-paper/25"></span>
+        <span>إلكترونيات</span>
+        <span class="w-1 h-1 rounded-full bg-paper/25"></span>
+        <span>سوبر ماركت</span>
+      </div>
+    </div>
+
+    <!-- product visual: store profile + product cards connected by thread -->
+    <div class="relative z-10 hero-in mb-10 md:mb-0" style="animation-delay:.22s">
+      <div class="relative max-w-md mx-auto md:mx-0 md:mr-auto">
+
+        <!-- ambient glow to give the visual weight against the dark field -->
+        <div class="absolute -inset-16 -z-10" aria-hidden="true" style="background: radial-gradient(closest-side, rgba(184,137,75,0.16), transparent 70%);"></div>
+
+        <!-- store profile card, framed like a real app screen -->
+        <div class="spotlight card-lift bg-paper text-ink rounded-2xl card-shadow relative z-10 overflow-hidden">
+          <div class="spotlight-fill"></div>
+
+          <!-- window chrome -->
+          <div class="flex items-center gap-1.5 px-4 pt-3.5 pb-2.5 border-b border-line/70 bg-paper2/60">
+            <span class="w-2.5 h-2.5 rounded-full bg-[#E0A66B]"></span>
+            <span class="w-2.5 h-2.5 rounded-full bg-[#C8C2AE]"></span>
+            <span class="w-2.5 h-2.5 rounded-full bg-[#C8C2AE]"></span>
+            <span class="mr-auto text-[10.5px] text-mute num tracking-wide" dir="ltr">souqna.app/store</span>
+          </div>
+
+          <div class="p-5">
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-xl bg-petrol flex items-center justify-center kufi text-paper text-lg font-bold shrink-0">ع</div>
+              <div class="min-w-0">
+                <p class="kufi font-semibold text-[15px] truncate">متجر عطور الشرق</p>
+                <p class="text-[12px] text-mute mt-0.5">أسوان · متجر موثّق</p>
+              </div>
+              <span class="mr-auto shrink-0 inline-flex items-center gap-1 text-[11px] kufi bg-petrol/10 text-petrol px-2.5 py-1 rounded-full">
+                <span class="w-1.5 h-1.5 rounded-full bg-petrol"></span> مفعّل
+              </span>
+            </div>
+
+            <div class="grid grid-cols-3 gap-2 mt-4">
+              <div class="aspect-square rounded-lg img-tile flex items-center justify-center">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1F4B43" stroke-width="1.4" opacity=".55"><path d="M10 3h4M11 3v3.2c0 .5-.15.9-.45 1.3L8.6 9.9A2 2 0 0 0 8 11.3V19a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-7.7c0-.5-.18-.97-.5-1.4l-1.95-2.4c-.3-.4-.55-.8-.55-1.3V3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div class="aspect-square rounded-lg img-tile flex items-center justify-center">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1F4B43" stroke-width="1.4" opacity=".55"><path d="M8 21V9a4 4 0 0 1 8 0v12M4 21h16" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div class="aspect-square rounded-lg img-tile flex items-center justify-center">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1F4B43" stroke-width="1.4" opacity=".55"><rect x="4" y="7" width="16" height="13" rx="2"/><path d="M9 7V5a3 3 0 0 1 6 0v2" stroke-linecap="round"/></svg>
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between mt-4 pt-4 border-t border-line">
+              <span class="text-[12px] text-mute kufi">١٨ منتج نشط</span>
+              <span class="text-[12px] text-brass kufi font-semibold">إدارة المتجر ←</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- floating product card -->
+        <div class="spotlight card-lift absolute -bottom-8 -right-8 md:-right-12 w-44 bg-paper text-ink rounded-xl p-3.5 card-shadow z-20 hidden sm:block">
+          <div class="spotlight-fill"></div>
+          <div class="aspect-[4/3] rounded-lg img-tile mb-2.5 flex items-center justify-center">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#1F4B43" stroke-width="1.4" opacity=".5"><path d="M10 3h4M11 3v3.2c0 .5-.15.9-.45 1.3L8.6 9.9A2 2 0 0 0 8 11.3V19a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-7.7c0-.5-.18-.97-.5-1.4l-1.95-2.4c-.3-.4-.55-.8-.55-1.3V3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <p class="kufi text-[13px] font-medium">عطر عود ملكي</p>
+          <p class="text-[11px] text-mute mt-0.5">متوفر · ٣ مقاسات</p>
+        </div>
+
+        <!-- marketer chip -->
+        <div class="absolute -top-6 -left-6 md:-left-10 bg-brass text-ink rounded-xl px-4 py-3 card-shadow z-20 hidden sm:flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded-full bg-ink/10 flex items-center justify-center kufi text-[13px] font-bold">م</div>
+          <div>
+            <p class="kufi text-[12px] font-semibold">يوسف · مسوّق</p>
+            <p class="text-[10px] opacity-70">يسوّق لهذا المتجر</p>
+          </div>
+        </div>
+
+        <!-- weekly activity chip, fills the lower field with a concrete signal -->
+        <div class="absolute -bottom-16 left-1/2 -translate-x-1/2 md:left-4 md:translate-x-0 bg-ink2 border border-paper/10 rounded-xl px-4 py-2.5 card-shadow z-20 hidden md:flex items-center gap-2.5 whitespace-nowrap">
+          <span class="w-1.5 h-1.5 rounded-full bg-brass2"></span>
+          <span class="kufi text-[11.5px] text-paper/70">+٤ منتجات أُضيفت هذا الأسبوع</span>
+        </div>
+
+        <!-- connecting thread svg -->
+        <svg class="absolute -inset-10 z-0 hidden sm:block" viewBox="0 0 300 300" fill="none" aria-hidden="true">
+          <path class="thread-line" d="M40 40 C 100 70, 90 130, 150 150 C 210 170, 230 220, 260 250" />
+          <circle class="node" cx="40" cy="40" r="4"/>
+          <circle class="node" cx="150" cy="150" r="4"/>
+          <circle class="node" cx="260" cy="250" r="4"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CREDIBILITY STRIP ============ -->
+<section class="bg-ink2 border-b border-paper/10 grain relative">
+  <div class="max-w-7xl mx-auto px-5 md:px-8 py-6 grid grid-cols-2 md:grid-cols-4 gap-y-6 gap-x-4 relative z-[1]">
+    <div class="flex items-center gap-3">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D9AE72" stroke-width="1.6" class="shrink-0"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="kufi text-[13px] text-paper/70">بياناتك ملكك، لا تُشارك بدون إذنك</span>
+    </div>
+    <div class="flex items-center gap-3">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D9AE72" stroke-width="1.6" class="shrink-0"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2" stroke-linecap="round"/></svg>
+      <span class="kufi text-[13px] text-paper/70">تسجيل المتجر يتم خلال دقائق</span>
+    </div>
+    <div class="flex items-center gap-3">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D9AE72" stroke-width="1.6" class="shrink-0"><path d="M3 12h4l3 8 4-16 3 8h4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="kufi text-[13px] text-paper/70">بدون رسوم بدء لأصحاب المحلات أو المسوقين</span>
+    </div>
+    <div class="flex items-center gap-3">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D9AE72" stroke-width="1.6" class="shrink-0"><path d="M4 4h16v12H7l-3 3V4z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="kufi text-[13px] text-paper/70">دعم مباشر يرد على استفساراتك</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section id="how" class="max-w-7xl mx-auto px-5 md:px-8 py-20 md:py-28">
+  <div class="max-w-lg reveal">
+    <p class="kufi text-brass text-[13px] font-semibold mb-3">كيف تعمل المنصة</p>
+    <h2 class="kufi font-bold text-[28px] md:text-[36px] leading-[1.3] text-ink">
+      رحلتان، وخيط واحد يربطهما
+    </h2>
+    <p class="mt-4 text-[15px] leading-[1.9] text-mute max-w-md">
+      صاحب المحل يضيف متجره، والمسوّق يسوّق له — وبينهما خيط واحد يوصل المنتج للعميل.
+    </p>
+  </div>
+
+  <div class="mt-14 grid md:grid-cols-2 gap-12 md:gap-6">
+
+    <!-- owners track -->
+    <div class="reveal">
+      <p class="kufi text-[13px] font-semibold text-petrol mb-6">لأصحاب المحلات</p>
+      <ol class="relative border-r-2 border-line pr-7 space-y-9">
+        <li class="relative">
+          <span class="absolute right-[-37px] top-0 w-4 h-4 rounded-full bg-paper border-2 border-petrol"></span>
+          <p class="num text-petrol text-[13px] font-semibold mb-1">01</p>
+          <p class="kufi font-semibold text-[16px] text-ink">سجل متجرك</p>
+          <p class="text-[14px] text-mute mt-1.5 leading-[1.8]">أدخل بيانات محلك الأساسية وابدأ في دقائق.</p>
+        </li>
+        <li class="relative">
+          <span class="absolute right-[-37px] top-0 w-4 h-4 rounded-full bg-paper border-2 border-petrol"></span>
+          <p class="num text-petrol text-[13px] font-semibold mb-1">02</p>
+          <p class="kufi font-semibold text-[16px] text-ink">أضف منتجاتك</p>
+          <p class="text-[14px] text-mute mt-1.5 leading-[1.8]">صور وأسعار وتفاصيل كل منتج تعرضه في متجرك.</p>
+        </li>
+        <li class="relative">
+          <span class="absolute right-[-37px] top-0 w-4 h-4 rounded-full bg-paper border-2 border-petrol"></span>
+          <p class="num text-petrol text-[13px] font-semibold mb-1">03</p>
+          <p class="kufi font-semibold text-[16px] text-ink">ابدأ الوصول للعملاء</p>
+          <p class="text-[14px] text-mute mt-1.5 leading-[1.8]">يظهر متجرك للمسوقين والعملاء داخل المنصة.</p>
+        </li>
+      </ol>
+    </div>
+
+    <!-- marketers track -->
+    <div class="reveal" style="transition-delay:.08s">
+      <p class="kufi text-[13px] font-semibold text-brass mb-6">للمسوقين</p>
+      <ol class="relative border-r-2 border-line pr-7 space-y-9">
+        <li class="relative">
+          <span class="absolute right-[-37px] top-0 w-4 h-4 rounded-full bg-paper border-2 border-brass"></span>
+          <p class="num text-brass text-[13px] font-semibold mb-1">01</p>
+          <p class="kufi font-semibold text-[16px] text-ink">سجل كمسوق</p>
+          <p class="text-[14px] text-mute mt-1.5 leading-[1.8]">أنشئ حسابك كمسوّق على المنصة.</p>
+        </li>
+        <li class="relative">
+          <span class="absolute right-[-37px] top-0 w-4 h-4 rounded-full bg-paper border-2 border-brass"></span>
+          <p class="num text-brass text-[13px] font-semibold mb-1">02</p>
+          <p class="kufi font-semibold text-[16px] text-ink">أضف المحلات</p>
+          <p class="text-[14px] text-mute mt-1.5 leading-[1.8]">اختر المحلات التي تريد التسويق لها.</p>
+        </li>
+        <li class="relative">
+          <span class="absolute right-[-37px] top-0 w-4 h-4 rounded-full bg-paper border-2 border-brass"></span>
+          <p class="num text-brass text-[13px] font-semibold mb-1">03</p>
+          <p class="kufi font-semibold text-[16px] text-ink">سوّق لها</p>
+          <p class="text-[14px] text-mute mt-1.5 leading-[1.8]">شارك المحل مع جمهورك وتابع النشاط أول بأول.</p>
+        </li>
+        <li class="relative">
+          <span class="absolute right-[-37px] top-0 w-4 h-4 rounded-full bg-paper border-2 border-brass"></span>
+          <p class="num text-brass text-[13px] font-semibold mb-1">04</p>
+          <p class="kufi font-semibold text-[16px] text-ink">احصل على عائدك</p>
+          <p class="text-[14px] text-mute mt-1.5 leading-[1.8]">يُحتسب عائدك وفق نموذج المنصة عند كل نشاط تسويقي ناجح.</p>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SHOP OWNERS ============ -->
+<section id="owners" class="bg-paper2 border-y border-line">
+  <div class="max-w-7xl mx-auto px-5 md:px-8 py-20 md:py-28 grid lg:grid-cols-2 gap-14 items-center">
+
+    <div class="reveal order-2 lg:order-1">
+      <p class="kufi text-[13px] font-semibold text-petrol mb-3">لأصحاب المحلات</p>
+      <h2 class="kufi font-bold text-[28px] md:text-[36px] leading-[1.3] text-ink">
+        خلّي متجرك جزء من سوق أكبر
+      </h2>
+      <p class="mt-5 text-[15px] leading-[1.9] text-ink3 max-w-md">
+        تسجل بياناتك الأساسية، تضيف منتجاتك بالصور والأسعار، ويظهر متجرك بشكل منظّم أمام المسوقين والعملاء داخل المنصة — وأنت من يدير المتجر ويحدّث المنتجات في أي وقت.
+      </p>
+
+      <ul class="mt-7 space-y-3.5">
+        <li class="flex items-start gap-3">
+          <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-petrol shrink-0"></span>
+          <span class="text-[14.5px] text-ink3">تسجيل مباشر ببيانات المحل الأساسية</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-petrol shrink-0"></span>
+          <span class="text-[14.5px] text-ink3">إضافة المنتجات وتعديلها في أي وقت</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-petrol shrink-0"></span>
+          <span class="text-[14.5px] text-ink3">ظهور المتجر للمسوقين المسجّلين على المنصة</span>
+        </li>
+      </ul>
+
+      <a href="#final-cta" class="btn-magnetic magnetic mt-9 inline-flex kufi font-semibold text-[15px] bg-petrol text-paper px-7 py-3.5 rounded-full hover:bg-ink transition-colors focus-ring">
+        أضف متجرك
+      </a>
+    </div>
+
+    <!-- product UI: store profile + catalog -->
+    <div class="reveal order-1 lg:order-2" style="transition-delay:.08s">
+      <div class="spotlight card-lift bg-paper rounded-2xl card-shadow overflow-hidden max-w-sm mx-auto">
+        <div class="spotlight-fill"></div>
+        <div class="p-5 border-b border-line">
+          <p class="kufi text-[12px] text-mute mb-3">ملف المتجر</p>
+          <div class="flex items-center gap-3">
+            <div class="w-11 h-11 rounded-xl bg-petrol flex items-center justify-center kufi text-paper font-bold">ب</div>
+            <div>
+              <p class="kufi font-semibold text-[14.5px] text-ink">بوتيك لمسة</p>
+              <p class="text-[11.5px] text-mute mt-0.5">ملابس نسائية · أسوان</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-5">
+          <p class="kufi text-[12px] text-mute mb-3">كتالوج المنتجات</p>
+          <div class="space-y-3">
+            <div class="flex items-center gap-3 border border-line rounded-xl p-2.5">
+              <div class="w-12 h-12 rounded-lg img-tile shrink-0"></div>
+              <div class="flex-1 min-w-0">
+                <p class="kufi text-[13px] font-medium text-ink truncate">فستان صيفي مطرز</p>
+                <p class="text-[11.5px] text-mute mt-0.5">٤٥٠ ج.م · متوفر</p>
+              </div>
+              <span class="text-[10.5px] kufi bg-petrol/10 text-petrol px-2 py-0.5 rounded-full">منشور</span>
+            </div>
+            <div class="flex items-center gap-3 border border-line rounded-xl p-2.5">
+              <div class="w-12 h-12 rounded-lg img-tile shrink-0"></div>
+              <div class="flex-1 min-w-0">
+                <p class="kufi text-[13px] font-medium text-ink truncate">جاكيت جينز</p>
+                <p class="text-[11.5px] text-mute mt-0.5">٣٢٠ ج.م · مقاسان متبقيان</p>
+              </div>
+              <span class="text-[10.5px] kufi bg-brass/15 text-brass px-2 py-0.5 rounded-full">مسوّدة</span>
+            </div>
+            <div class="flex items-center gap-3 border border-line rounded-xl p-2.5">
+              <div class="w-12 h-12 rounded-lg img-tile shrink-0"></div>
+              <div class="flex-1 min-w-0">
+                <p class="kufi text-[13px] font-medium text-ink truncate">حقيبة يد جلد</p>
+                <p class="text-[11.5px] text-mute mt-0.5">٦٠٠ ج.م · متوفر</p>
+              </div>
+              <span class="text-[10.5px] kufi bg-petrol/10 text-petrol px-2 py-0.5 rounded-full">منشور</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ MARKETERS ============ -->
+<section id="marketers" class="relative bg-ink text-paper grain">
+  <div class="max-w-7xl mx-auto px-5 md:px-8 py-20 md:py-28 grid lg:grid-cols-2 gap-14 items-center">
+
+    <!-- marketer dashboard visual — distinct composition (left on desktop) -->
+    <div class="reveal">
+      <div class="spotlight card-lift bg-ink2 rounded-2xl border border-paper/10 overflow-hidden max-w-sm mx-auto">
+        <div class="spotlight-fill"></div>
+        <div class="p-5 border-b border-paper/10 flex items-center justify-between">
+          <div>
+            <p class="text-[11.5px] text-paper/50 kufi">مرحبًا</p>
+            <p class="kufi font-semibold text-[15px] mt-0.5">يوسف عبد الرحمن</p>
+          </div>
+          <div class="w-10 h-10 rounded-full bg-brass flex items-center justify-center kufi text-ink font-bold text-[13px]">م</div>
+        </div>
+        <div class="p-5">
+          <p class="kufi text-[12px] text-paper/50 mb-3">المحلات التي تسوّق لها</p>
+          <div class="space-y-2.5">
+            <div class="flex items-center gap-3 bg-paper/5 rounded-xl p-2.5">
+              <div class="w-9 h-9 rounded-lg bg-petrol2 shrink-0"></div>
+              <div class="flex-1 min-w-0">
+                <p class="kufi text-[13px] font-medium truncate">متجر عطور الشرق</p>
+                <p class="text-[11px] text-paper/45 mt-0.5">نشاط هذا الأسبوع: ١٢ مشاركة</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-3 bg-paper/5 rounded-xl p-2.5">
+              <div class="w-9 h-9 rounded-lg bg-brass shrink-0"></div>
+              <div class="flex-1 min-w-0">
+                <p class="kufi text-[13px] font-medium truncate">بوتيك لمسة</p>
+                <p class="text-[11px] text-paper/45 mt-0.5">نشاط هذا الأسبوع: ٧ مشاركات</p>
+              </div>
+            </div>
+          </div>
+          <div class="mt-5 pt-5 border-t border-paper/10 flex items-center justify-between">
+            <span class="text-[12px] text-paper/50 kufi">عائدك هذا الشهر</span>
+            <span class="text-[12px] text-brass2 kufi font-semibold">وفق نموذج المنصة</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal" style="transition-delay:.08s">
+      <p class="kufi text-[13px] font-semibold text-brass2 mb-3">للمسوقين</p>
+      <h2 class="kufi font-bold text-[28px] md:text-[36px] leading-[1.3]">
+        حوّل علاقاتك بالمحلات إلى فرصة
+      </h2>
+      <p class="mt-5 text-[15px] leading-[1.9] text-paper/70 max-w-md">
+        تسجّل كمسوّق، تختار المحلات التي تريد التسويق لها، وتسوّق لمنتجاتها لجمهورك. تتابع نشاطك من مكان واحد، ويُحتسب عائدك وفق نموذج المنصة.
+      </p>
+
+      <ul class="mt-7 space-y-3.5">
+        <li class="flex items-start gap-3">
+          <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-brass2 shrink-0"></span>
+          <span class="text-[14.5px] text-paper/80">تسجيل بسيط كمسوّق على المنصة</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-brass2 shrink-0"></span>
+          <span class="text-[14.5px] text-paper/80">إضافة أي عدد من المحلات للتسويق لها</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-brass2 shrink-0"></span>
+          <span class="text-[14.5px] text-paper/80">متابعة نشاطك التسويقي وعائدك من مكان واحد</span>
+        </li>
+      </ul>
+
+      <a href="#final-cta" class="btn-magnetic magnetic mt-9 inline-flex kufi font-semibold text-[15px] bg-brass text-ink px-7 py-3.5 rounded-full hover:bg-brass2 transition-colors focus-ring">
+        سجل كمسوق
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ PRODUCT SHOWCASE ============ -->
+<section class="max-w-7xl mx-auto px-5 md:px-8 py-20 md:py-28">
+  <div class="max-w-lg reveal">
+    <p class="kufi text-brass text-[13px] font-semibold mb-3">داخل المنصة</p>
+    <h2 class="kufi font-bold text-[28px] md:text-[36px] leading-[1.3] text-ink">
+      واجهة واحدة، لكل الأطراف
+    </h2>
+  </div>
+
+  <div class="mt-12 grid md:grid-cols-3 gap-6">
+
+    <div class="reveal spotlight bg-paper rounded-2xl border border-line p-5 card-shadow card-lift">
+      <div class="spotlight-fill"></div>
+      <p class="kufi text-[12px] text-mute mb-4">تسجيل المتجر</p>
+      <div class="space-y-3">
+        <div class="h-9 rounded-lg border border-line bg-paper2 flex items-center px-3 text-[12px] text-mute">اسم المحل</div>
+        <div class="h-9 rounded-lg border border-line bg-paper2 flex items-center px-3 text-[12px] text-mute">نوع النشاط</div>
+        <div class="h-9 rounded-lg border border-line bg-paper2 flex items-center px-3 text-[12px] text-mute">المدينة</div>
+        <div class="h-10 rounded-lg bg-petrol text-paper flex items-center justify-center kufi text-[13px] font-semibold mt-4">متابعة التسجيل</div>
+      </div>
+    </div>
+
+    <div class="reveal spotlight bg-paper rounded-2xl border border-line p-5 card-shadow card-lift" style="transition-delay:.06s">
+      <div class="spotlight-fill"></div>
+      <p class="kufi text-[12px] text-mute mb-4">تفاصيل المنتج</p>
+      <div class="aspect-[4/3] rounded-lg img-tile mb-3"></div>
+      <p class="kufi text-[13.5px] font-semibold text-ink">سماعة لاسلكية X200</p>
+      <p class="text-[12px] text-mute mt-1">١٢٠٠ ج.م · إلكترونيات</p>
+      <div class="flex gap-2 mt-3">
+        <span class="text-[10.5px] kufi bg-paper2 text-ink3 px-2 py-1 rounded-full">أسود</span>
+        <span class="text-[10.5px] kufi bg-paper2 text-ink3 px-2 py-1 rounded-full">أبيض</span>
+        <span class="text-[10.5px] kufi bg-petrol/10 text-petrol px-2 py-1 rounded-full">متوفر</span>
+      </div>
+    </div>
+
+    <div class="reveal spotlight bg-ink2 text-paper rounded-2xl p-5 card-shadow card-lift" style="transition-delay:.12s">
+      <div class="spotlight-fill"></div>
+      <p class="kufi text-[12px] text-paper/50 mb-4">نظرة عامة على النشاط</p>
+      <div class="flex items-end gap-1.5 h-20">
+        <div class="flex-1 bg-brass/70 rounded-t" style="height:40%"></div>
+        <div class="flex-1 bg-brass/70 rounded-t" style="height:65%"></div>
+        <div class="flex-1 bg-brass rounded-t" style="height:90%"></div>
+        <div class="flex-1 bg-brass/70 rounded-t" style="height:55%"></div>
+        <div class="flex-1 bg-brass/70 rounded-t" style="height:75%"></div>
+        <div class="flex-1 bg-brass/40 rounded-t" style="height:30%"></div>
+      </div>
+      <p class="text-[11px] text-paper/45 kufi mt-3">بيانات تجريبية لتوضيح الواجهة</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ BENEFITS ============ -->
+<section class="border-y border-line bg-paper2">
+  <div class="max-w-7xl mx-auto px-5 md:px-8 py-16 md:py-20">
+    <div class="flex flex-col md:flex-row md:items-center gap-8 md:gap-0 divide-y md:divide-y-0 md:divide-x md:divide-x-reverse divide-line">
+      <div class="reveal md:px-8 md:first:pr-0 pt-6 md:pt-0 first:pt-0">
+        <p class="kufi font-semibold text-[16px] text-ink">تسجيل بسيط</p>
+        <p class="text-[13.5px] text-mute mt-1.5 leading-[1.8]">تبدأ ببيانات أساسية فقط، بدون تعقيد.</p>
+      </div>
+      <div class="reveal md:px-8 pt-6 md:pt-0" style="transition-delay:.05s">
+        <p class="kufi font-semibold text-[16px] text-ink">إدارة سهلة</p>
+        <p class="text-[13.5px] text-mute mt-1.5 leading-[1.8]">تتحكم في متجرك ومنتجاتك من مكان واحد.</p>
+      </div>
+      <div class="reveal md:px-8 pt-6 md:pt-0" style="transition-delay:.1s">
+        <p class="kufi font-semibold text-[16px] text-ink">وصول أفضل للعملاء</p>
+        <p class="text-[13.5px] text-mute mt-1.5 leading-[1.8]">متجرك يظهر أمام شبكة من المسوقين.</p>
+      </div>
+      <div class="reveal md:px-8 md:last:pl-0 pt-6 md:pt-0" style="transition-delay:.15s">
+        <p class="kufi font-semibold text-[16px] text-ink">فرصة للمسوقين</p>
+        <p class="text-[13.5px] text-mute mt-1.5 leading-[1.8]">تسويق حقيقي لمحلات حقيقية، بعائد واضح.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST ============ -->
+<section class="max-w-7xl mx-auto px-5 md:px-8 py-20 md:py-24">
+  <div class="grid md:grid-cols-2 gap-12 items-start">
+    <div class="reveal">
+      <p class="kufi text-brass text-[13px] font-semibold mb-3">الشفافية</p>
+      <h2 class="kufi font-bold text-[26px] md:text-[32px] leading-[1.35] text-ink max-w-md">
+        بنيناها لتكون واضحة من أول خطوة
+      </h2>
+      <p class="mt-4 text-[15px] leading-[1.9] text-mute max-w-md">
+        كل خطوة في التسجيل والإدارة موضّحة داخل المنصة نفسها. لا تفاصيل مخفية، ولا شروط غامضة.
+      </p>
+    </div>
+    <div class="reveal grid sm:grid-cols-2 gap-4" style="transition-delay:.08s">
+      <div class="border border-line rounded-xl p-5 bg-paper">
+        <p class="kufi font-semibold text-[14.5px] text-ink">خطوات تسجيل واضحة</p>
+        <p class="text-[13px] text-mute mt-2 leading-[1.8]">تعرف بالضبط ما هو مطلوب منك في كل مرحلة.</p>
+      </div>
+      <div class="border border-line rounded-xl p-5 bg-paper">
+        <p class="kufi font-semibold text-[14.5px] text-ink">سياسات معلنة</p>
+        <p class="text-[13px] text-mute mt-2 leading-[1.8]">شروط الاستخدام وسياسة الخصوصية متاحة دائمًا.</p>
+      </div>
+      <div class="border border-line rounded-xl p-5 bg-paper">
+        <p class="kufi font-semibold text-[14.5px] text-ink">دعم مباشر</p>
+        <p class="text-[13px] text-mute mt-2 leading-[1.8]">فريق الدعم متاح للرد على استفساراتك.</p>
+      </div>
+      <div class="border border-line rounded-xl p-5 bg-paper">
+        <p class="kufi font-semibold text-[14.5px] text-ink">تحكّم كامل بمتجرك</p>
+        <p class="text-[13px] text-mute mt-2 leading-[1.8]">تعديل بياناتك ومنتجاتك متاح في أي وقت.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq" class="bg-paper2 border-t border-line">
+  <div class="max-w-3xl mx-auto px-5 md:px-8 py-20 md:py-28">
+    <p class="kufi text-brass text-[13px] font-semibold mb-3 reveal">الأسئلة الشائعة</p>
+    <h2 class="kufi font-bold text-[26px] md:text-[32px] text-ink mb-10 reveal">أسئلة قد تكون في بالك</h2>
+
+    <div class="divide-y divide-line border-t border-b border-line" id="accordion">
+      <!-- items injected by JS-friendly markup below -->
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section id="final-cta" class="relative bg-ink text-paper grain">
+  <div class="max-w-3xl mx-auto px-5 md:px-8 py-20 md:py-28 text-center reveal">
+    <h2 class="kufi font-bold text-[28px] md:text-[40px] leading-[1.3]">ابدأ خطوتك الأولى اليوم</h2>
+    <p class="mt-4 text-[15px] md:text-[16px] text-paper/70 max-w-md mx-auto leading-[1.9]">
+      سواء كان عندك محل تريد أن يصل لعملاء أكثر، أو تبحث عن فرصة تسويق حقيقية — سوقنا يبدأ من هنا.
+    </p>
+    <div class="mt-9 flex flex-wrap items-center justify-center gap-3.5">
+      <a href="#" class="btn-magnetic magnetic kufi font-semibold text-[15px] bg-brass text-ink px-7 py-3.5 rounded-full hover:bg-brass2 transition-colors focus-ring">أضيف متجري</a>
+      <a href="#" class="btn-magnetic magnetic kufi font-semibold text-[15px] border border-paper/25 text-paper px-7 py-3.5 rounded-full hover:border-paper/60 transition-colors focus-ring">أسجل كمسوق</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="relative bg-ink text-paper/60 border-t border-paper/10 grain">
+  <div class="max-w-7xl mx-auto px-5 md:px-8 py-14">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div>
+        <p class="kufi text-lg font-bold text-paper flex items-center gap-2.5">
+          <svg width="24" height="24" viewBox="0 0 26 26" fill="none">
+            <circle cx="13" cy="13" r="12.25" stroke="#D9AE72" stroke-width="1.4"/>
+            <path d="M6 15.5C8 13 10.5 17 13 14.5C15.5 12 18 16 20 13.5" stroke="#B8894B" stroke-width="1.5" stroke-linecap="round"/>
+            <circle cx="6" cy="15.5" r="1.4" fill="#D9AE72"/>
+            <circle cx="20" cy="13.5" r="1.4" fill="#D9AE72"/>
+          </svg>
+          سوقنا
+        </p>
+        <p class="text-[13.5px] mt-3 leading-[1.9] max-w-[220px]">منصة تجمع أصحاب المحلات والمسوقين في تجربة واحدة.</p>
+      </div>
+      <div>
+        <p class="kufi text-[13px] font-semibold text-paper mb-4">التصفح</p>
+        <ul class="space-y-2.5 text-[13.5px]">
+          <li><a href="#how" class="hover:text-paper transition-colors">كيف تعمل</a></li>
+          <li><a href="#owners" class="hover:text-paper transition-colors">لأصحاب المحلات</a></li>
+          <li><a href="#marketers" class="hover:text-paper transition-colors">للمسوقين</a></li>
+          <li><a href="#faq" class="hover:text-paper transition-colors">الأسئلة الشائعة</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="kufi text-[13px] font-semibold text-paper mb-4">قانوني</p>
+        <ul class="space-y-2.5 text-[13.5px]">
+          <li><a href="#" class="hover:text-paper transition-colors">سياسة الخصوصية</a></li>
+          <li><a href="#" class="hover:text-paper transition-colors">الشروط والأحكام</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="kufi text-[13px] font-semibold text-paper mb-4">تواصل معنا</p>
+        <ul class="space-y-2.5 text-[13.5px]">
+          <li><a href="mailto:support@souqna.app" class="hover:text-paper transition-colors" dir="ltr">support@souqna.app</a></li>
+        </ul>
+        <div class="flex items-center gap-3 mt-5">
+          <a href="#" aria-label="انستقرام" class="w-9 h-9 rounded-full border border-paper/15 flex items-center justify-center hover:border-paper/40 transition-colors">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          </a>
+          <a href="#" aria-label="تيك توك" class="w-9 h-9 rounded-full border border-paper/15 flex items-center justify-center hover:border-paper/40 transition-colors">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.82c-1.02-.9-1.6-2.19-1.6-3.51h-3.13v14.1a2.65 2.65 0 1 1-1.87-2.53V10.7a5.85 5.85 0 1 0 5 5.79V9.2a6.79 6.79 0 0 0 4.6 1.8V7.9a3.66 3.66 0 0 1-3-2.08z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="mt-12 pt-6 border-t border-paper/10 text-[12.5px] text-paper/40">
+      © 2026 سوقنا. جميع الحقوق محفوظة.
+    </div>
+  </div>
+</footer>
+
+<script>
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // scroll progress + header shadow
+  const progressBar = document.getElementById('scrollProgress');
+  const siteHeader = document.getElementById('siteHeader');
+  const onScroll = () => {
+    const h = document.documentElement;
+    const scrolled = h.scrollTop;
+    const height = h.scrollHeight - h.clientHeight;
+    progressBar.style.width = height > 0 ? `${(scrolled / height) * 100}%` : '0%';
+    siteHeader.classList.toggle('scrolled', scrolled > 8);
+  };
+  document.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  // spotlight cursor tracking on premium cards
+  if (!prefersReducedMotion) {
+    document.querySelectorAll('.spotlight').forEach(card => {
+      card.addEventListener('mousemove', (e) => {
+        const rect = card.getBoundingClientRect();
+        card.style.setProperty('--sx', `${e.clientX - rect.left}px`);
+        card.style.setProperty('--sy', `${e.clientY - rect.top}px`);
+      });
+    });
+
+    // subtle magnetic pull on primary buttons
+    document.querySelectorAll('.magnetic').forEach(btn => {
+      btn.addEventListener('mousemove', (e) => {
+        const rect = btn.getBoundingClientRect();
+        const x = (e.clientX - rect.left - rect.width / 2) * 0.25;
+        const y = (e.clientY - rect.top - rect.height / 2) * 0.35;
+        btn.style.transform = `translate(${x}px, ${y}px)`;
+      });
+      btn.addEventListener('mouseleave', () => { btn.style.transform = 'translate(0, 0)'; });
+    });
+  }
+
+  // mobile menu
+  const menuBtn = document.getElementById('menuBtn');
+  const mobileMenu = document.getElementById('mobileMenu');
+  menuBtn.addEventListener('click', () => {
+    const isHidden = mobileMenu.classList.contains('hidden');
+    mobileMenu.classList.toggle('hidden');
+    menuBtn.setAttribute('aria-expanded', String(isHidden));
+  });
+  mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    mobileMenu.classList.add('hidden');
+    menuBtn.setAttribute('aria-expanded', 'false');
+  }));
+
+  // scroll reveal
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // FAQ accordion
+  const faqData = [
+    { q: "كيف أضيف متجري؟", a: "تسجّل بياناتك الأساسية كصاحب محل، ثم تضيف اسم المحل ونوع النشاط والمدينة، ويصبح متجرك جاهزًا لإضافة المنتجات." },
+    { q: "هل التسجيل مجاني؟", a: "التسجيل على المنصة كصاحب محل أو كمسوّق لا يتطلب أي رسوم بدء." },
+    { q: "كيف أضيف المنتجات؟", a: "من داخل ملف متجرك، تضيف كل منتج بصورة وسعر ووصف مختصر، ويمكنك تعديل أو حذف أي منتج في أي وقت." },
+    { q: "كيف يعمل المسوق؟", a: "يسجّل المسوّق حسابه، ثم يختار المحلات التي يريد التسويق لها، ويشارك منتجاتها مع جمهوره." },
+    { q: "كيف يتم احتساب العائد؟", a: "يُحتسب عائد المسوّق وفق نموذج المنصة المعلن عند التسجيل، وتفاصيله متاحة داخل حساب المسوّق." },
+    { q: "هل يمكن تعديل بيانات المتجر؟", a: "نعم، يمكن لصاحب المحل تعديل بيانات متجره ومنتجاته في أي وقت من لوحة إدارة المتجر." },
+    { q: "هل المنصة مناسبة للمتاجر الصغيرة؟", a: "نعم، المنصة مصمّمة لتناسب المحلات المحلية بمختلف أحجامها، من المتجر الفردي إلى السلسلة الأكبر." },
+    { q: "كيف أتواصل مع الدعم؟", a: "يمكنك التواصل مع فريق الدعم عبر البريد الإلكتروني الموضّح في تذييل الصفحة." },
+  ];
+
+  const accordion = document.getElementById('accordion');
+  faqData.forEach((item, i) => {
+    const wrap = document.createElement('div');
+    const btnId = `faq-btn-${i}`;
+    const panelId = `faq-panel-${i}`;
+    wrap.innerHTML = `
+      <button id="${btnId}" class="faq-trigger w-full flex items-center justify-between gap-4 py-5 text-right focus-ring" aria-expanded="false" aria-controls="${panelId}">
+        <span class="kufi font-medium text-[15px] text-ink">${item.q}</span>
+        <svg class="faq-icon shrink-0 transition-transform duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 5L7 11L13 5" stroke="#8A8578" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div id="${panelId}" role="region" aria-labelledby="${btnId}" class="accordion-content">
+        <p class="pb-5 text-[14px] leading-[1.9] text-mute max-w-xl">${item.a}</p>
+      </div>
+    `;
+    accordion.appendChild(wrap);
+  });
+
+  document.querySelectorAll('.faq-trigger').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const panel = document.getElementById(btn.getAttribute('aria-controls'));
+      const isOpen = btn.getAttribute('aria-expanded') === 'true';
+
+      document.querySelectorAll('.faq-trigger').forEach(b => {
+        b.setAttribute('aria-expanded', 'false');
+        b.querySelector('.faq-icon').style.transform = 'rotate(0deg)';
+        document.getElementById(b.getAttribute('aria-controls')).style.maxHeight = null;
+      });
+
+      if (!isOpen) {
+        btn.setAttribute('aria-expanded', 'true');
+        btn.querySelector('.faq-icon').style.transform = 'rotate(180deg)';
+        panel.style.maxHeight = panel.scrollHeight + 'px';
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
